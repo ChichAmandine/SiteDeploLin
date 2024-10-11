@@ -1,65 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="w3.css">
-<link rel="stylesheet" href="media.css">
-<link rel="stylesheet" href="standard.css">
-<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-<link href="exocss.css" rel="stylesheet">
+  <link rel="stylesheet" href="w3.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="standard.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="exocss.css" rel="stylesheet">
 
-<link rel="preload" href="img/main_HOME.webp" as="image" type="image/webp" />
-
+  <link rel="preload" href="img/main_HOME.webp" as="image" type="image/webp" />
 </head>
 <body>
 
-<div class="w3-display-container" style="margin-bottom:50px">
-  <img src="img/main_HOME.webp" class="responsive" alt="Elephant">
-  <div class="w3-display-bottomleft w3-container w3-amber w3-hover-orange w3-hide-small"
-   style="bottom:10%;opacity:0.7;width:70%">
-  <h2><b>Travel Agency (Demo Website)</b></h2>
-  </div>
-</div>
-
-<div class="w3-row w3-container" style="margin:50px 0">
-<div class="w3-half w3-container">
-  <div class="w3-topbar w3-border-amber">
-    <img src="img/cellphone.webp" class="responsive" alt="Photo">
-    <h2>Smart Vacation</h2>
-    <p>Full vacation control from your cell phone.</p>
-  </div>
-</div>
-
-<div class="w3-half w3-container">
-  <div class="w3-topbar w3-border-amber">
-    <img src="img/sealions.webp" class="responsive" alt="Phoque">
-    <h2>Super Offers</h2>
-    <p>Up to 50% offers. Always 25% student offers.</p>
-  </div>
-</div>
-</div>
-
-<div class="w3-row w3-container" style="margin:50px 0">
-<div class="w3-half w3-container">
-  <div class="w3-topbar w3-border-orange">
-    <img src="img/truck.webp" class="responsive" alt="VieilleVoiture">
-    <h2>Car Rental Included</h2>
-    <p>Wherever you travel our car rental is included.</p>
-  </div>
-</div>
-
-<div class="w3-half w3-container">
-  <div class="w3-topbar w3-border-orange">
-    <img src="img/nowornever.webp" class="responsive" alt="MtnOuJamais">
-    <h2>Realize Your Dreams</h2>
-    <p>Don't wait until it is to late.</p>
+  <div class="w3-display-container" style="margin-bottom:50px">
+    <img src="img/main_HOME.webp" 
+         srcset="img/main_HOME.webp 400w, img/main_HOME.webp 800w, img/main_HOME.webp 1200w"
+         sizes="(max-width: 600px) 400px, (max-width: 1024px) 800px, 1200px"
+         class="responsive" alt="Elephant" loading="lazy">
+    <div class="w3-display-bottomleft w3-container w3-amber w3-hover-orange w3-hide-small"
+         style="bottom:10%;opacity:0.7;width:70%">
+      <h2><b>Travel Agency (Demo Website)</b></h2>
     </div>
-</div>
-</div>
+  </div>
+
+  <div class="w3-row w3-container" style="margin:50px 0">
+    <div class="w3-half w3-container">
+      <div class="w3-topbar w3-border-amber">
+        <img src="img/cellphone.webp" 
+             srcset="img/cellphone.webp 400w, img/cellphone.webp 800w" 
+             sizes="(max-width: 600px) 400px, 800px"
+             class="responsive" alt="Photo" loading="lazy">
+        <h2>Smart Vacation</h2>
+        <p>Full vacation control from your cell phone.</p>
+      </div>
+    </div>
+
+    <div class="w3-half w3-container">
+      <div class="w3-topbar w3-border-amber">
+        <img src="img/sealions.webp" 
+             srcset="img/sealions.webp 400w, img/sealions.webp 800w" 
+             sizes="(max-width: 600px) 400px, 800px"
+             class="responsive" alt="Phoque" loading="lazy">
+        <h2>Super Offers</h2>
+        <p>Up to 50% offers. Always 25% student offers.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row w3-container" style="margin:50px 0">
+    <div class="w3-half w3-container">
+      <div class="w3-topbar w3-border-orange">
+        <img src="img/truck.webp" 
+             srcset="img/truck.webp 400w, img/truck.webp 800w" 
+             sizes="(max-width: 600px) 400px, 800px"
+             class="responsive" alt="Vieille Voiture" loading="lazy">
+        <h2>Car Rental Included</h2>
+        <p>Wherever you travel our car rental is included.</p>
+      </div>
+    </div>
+
+    <div class="w3-half w3-container">
+      <div class="w3-topbar w3-border-orange">
+        <img src="img/nowornever.webp" 
+             srcset="img/nowornever.webp 400w, img/nowornever.webp 800w" 
+             sizes="(max-width: 600px) 400px, 800px"
+             class="responsive" alt="MtnOuJamais" loading="lazy">
+        <h2>Realize Your Dreams</h2>
+        <p>Don't wait until it is too late.</p>
+      </div>
+    </div>
+  </div>
 
 </body>
-
 </html>
