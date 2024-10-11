@@ -4,73 +4,66 @@
   <title>Exo Linardi</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Super site (pas du tout c'est horrible je n'en peux plus) a optimiser ! :D">
-
-  <link rel="stylesheet" href="w3.css">
-  <link rel="stylesheet" href="media.css">
-  <link rel="stylesheet" href="standard.css">
-  <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
-  <link href="exocss.css" rel="stylesheet">
-
-  <link rel="preload" href="img/main_HOME.webp" as="image" type="image/webp" />
+  <meta name="description" content="Super site à optimiser ! :D">
+  
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-gray-100">
 
-  <div class="w3-display-container" style="margin-bottom:50px">
+  <div class="relative mb-12 min-h-[400px]">
     <img src="img/main_HOME.webp" 
-    srcset="img/main_HOME.webp 400w, img/main_HOME.webp 800w, img/main_HOME.webp 1200w"
-    sizes="(max-width: 600px) 100vw, (max-width: 1024px) 800px, 1200px"
-    class="responsive" alt="Elephant" loading="lazy">
-    <div class="w3-display-bottomleft w3-container w3-amber w3-hover-orange w3-hide-small"
-         style="bottom:10%;opacity:0.7;width:70%">
-      <h2><b>Travel Agency (Demo Website)</b></h2>
+         srcset="img/main_HOME.webp 400w, img/main_HOME.webp 800w, img/main_HOME.webp 1200w"
+         sizes="(max-width: 600px) 100vw, (max-width: 1024px) 800px, 1200px"
+         class="w-full h-auto" alt="Elephant" loading="lazy" width="1200" height="600">
+    <div class="absolute bottom-10 left-0 w-3/4 bg-amber-500 bg-opacity-70 p-4">
+      <h2 class="font-bold text-white">Travel Agency (Demo Website)</h2>
     </div>
   </div>
 
-  <div class="w3-row w3-container" style="margin:50px 0">
-    <div class="w3-half w3-container">
-      <div class="w3-topbar w3-border-amber">
+  <div class="flex flex-wrap justify-between mx-4 my-12">
+    <div class="w-full md:w-1/2 p-2">
+      <div class="border-t-4 border-amber-500 p-4">
         <img src="img/cellphone.webp" 
              srcset="img/cellphone.webp 400w, img/cellphone.webp 800w" 
-             sizes="(max-width: 600px) 400px, 800px"
-             class="responsive" alt="Photo" loading="lazy">
-        <h2>Smart Vacation</h2>
+             sizes="(max-width: 600px) 100vw, (max-width: 800px) 400px, 800px"
+             class="w-full h-auto" alt="Photo" loading="lazy" width="800" height="600">
+        <h2 class="mt-2 text-lg font-semibold">Smart Vacation</h2>
         <p>Full vacation control from your cell phone.</p>
       </div>
     </div>
 
-    <div class="w3-half w3-container">
-      <div class="w3-topbar w3-border-amber">
+    <div class="w-full md:w-1/2 p-2">
+      <div class="border-t-4 border-amber-500 p-4">
         <img src="img/sealions.webp" 
              srcset="img/sealions.webp 400w, img/sealions.webp 800w" 
-             sizes="(max-width: 600px) 400px, 800px"
-             class="responsive" alt="Phoque" loading="lazy">
-        <h2>Super Offers</h2>
+             sizes="(max-width: 600px) 100vw, (max-width: 800px) 400px, 800px"
+             class="w-full h-auto" alt="Phoque" loading="lazy" width="800" height="600">
+        <h2 class="mt-2 text-lg font-semibold">Super Offers</h2>
         <p>Up to 50% offers. Always 25% student offers.</p>
       </div>
     </div>
   </div>
 
-  <div class="w3-row w3-container" style="margin:50px 0">
-    <div class="w3-half w3-container">
-      <div class="w3-topbar w3-border-orange">
+  <div class="flex flex-wrap justify-between mx-4 my-12">
+    <div class="w-full md:w-1/2 p-2">
+      <div class="border-t-4 border-orange-500 p-4">
         <img src="img/truck.webp" 
              srcset="img/truck.webp 400w, img/truck.webp 800w" 
-             sizes="(max-width: 600px) 400px, 800px"
-             class="responsive" alt="Vieille Voiture" loading="lazy">
-        <h2>Car Rental Included</h2>
+             sizes="(max-width: 600px) 100vw, (max-width: 800px) 400px, 800px"
+             class="w-full h-auto" alt="Vieille Voiture" loading="lazy" width="800" height="600">
+        <h2 class="mt-2 text-lg font-semibold">Car Rental Included</h2>
         <p>Wherever you travel our car rental is included.</p>
       </div>
     </div>
 
-    <div class="w3-half w3-container">
-      <div class="w3-topbar w3-border-orange">
+    <div class="w-full md:w-1/2 p-2">
+      <div class="border-t-4 border-orange-500 p-4">
         <img src="img/nowornever.webp" 
              srcset="img/nowornever.webp 400w, img/nowornever.webp 800w" 
-             sizes="(max-width: 600px) 400px, 800px"
-             class="responsive" alt="MtnOuJamais" loading="lazy">
-        <h2>Realize Your Dreams</h2>
-        <p>Don't wait until it is too late.</p>
+             sizes="(max-width: 600px) 100vw, (max-width: 800px) 400px, 800px"
+             class="w-full h-auto" alt="MtnOuJamais" loading="lazy" width="800" height="600">
+        <h2 class="mt-2 text-lg font-semibold">Realize Your Dreams</h2>
+        <p>Don't wait until it is trop tard.</p>
       </div>
     </div>
   </div>
